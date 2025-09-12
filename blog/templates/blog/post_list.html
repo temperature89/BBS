@@ -1,1 +1,10 @@
-a
+<div>
+    <h1><a href="/">2ちゃんねる</a></h1>
+</div>
+
+{% for post in posts %}
+    <div>
+        <p><a href="">{{ post.text|linebreaksbr }}</a></p>
+        <p>published: {{ post.published_date }}</p>
+    </div>
+{% endfor %}
