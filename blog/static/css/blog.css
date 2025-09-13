@@ -14,7 +14,6 @@ html {
 /* ヘッダー */
 .page-header {
     /* background-color: #000000; */
-    font-family: "Libertinus Serif Display", system-ui;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
     margin-bottom: 0;
@@ -23,6 +22,7 @@ html {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    font-family: "Libertinus Serif Display", system-ui;
     color: #000000;
     font-size: 36pt;
     text-decoration: none;
@@ -45,7 +45,8 @@ html {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #000000;
     float: right;
-    font-size: 26pt;
+    font-size: 26px;
+    /* font-family: "Noto Sans", sans-serif; */
 }
 
 /* ポスト */
