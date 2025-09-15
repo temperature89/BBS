@@ -22,10 +22,13 @@ html {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    font-family: "Libertinus Serif Display", system-ui;
     color: #000000;
     font-size: 36pt;
     text-decoration: none;
+}
+
+.logo {
+    font-family: "Libertinus Serif Display", system-ui;
 }
 
 .top-menu .glyphicon {
@@ -38,8 +41,8 @@ html {
 }
 
 .content {
-    width: 70%;
     align-items: center;
+    margin: 0 auto;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
@@ -55,7 +58,10 @@ html {
     border-right: #e1e1e1 solid;
     border-left: #e1e1e1 solid;
     padding: 10px;
+    width: 70%;
+    margin: 0 auto;
 }
+
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
@@ -81,6 +87,10 @@ html {
     margin-top: 10px;
     font-size: 20px;
     font-weight: 400;
+}
+
+.post_container {
+        width: 70%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -112,4 +122,36 @@ html {
 .detail_text {
     font-size: 40px;
     font-weight: 700;
+}
+
+/* ログイン */
+.login {
+    width: 50%;
+    margin: 0 auto;
+    border: #e1e1e1 solid;
+    text-align: center;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.login_table {
+    margin: 0 auto 50px;
+}
+
+.login_table tr td {
+    font-size: 20px;
+}
+
+.login_button {
+    background-color: #1D9BF0;
+    color: #ffffff;
+    font-size: 17px;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    margin-bottom: 20px;
 }
